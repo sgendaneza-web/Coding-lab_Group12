@@ -12,7 +12,7 @@ case $choice in
   *) echo "Invalid choice"; exit 1 ;;
 esac
 
-timestamp=$(date +"%Y-%m-%d_%H:%M:%S")
+timestamp=$(date +"2026-01-29_10:30:5")
 
 mkdir -p hospital_data/archives
 
